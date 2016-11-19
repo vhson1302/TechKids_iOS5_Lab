@@ -20,8 +20,8 @@ class MainViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    //MAKR: MOVE TO GAME VIEW
     @IBAction func invokeToPlayView(_ sender: Any) {
-        print("Enter play view")
         let playView = self.storyboard?.instantiateViewController(withIdentifier: "PlayView") as! GamePlayViewController
         self.navigationController?.pushViewController(playView, animated: true)
     }

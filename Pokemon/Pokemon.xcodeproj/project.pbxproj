@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C23B95C1DE0C4AA003526FB /* RPCircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C23B95B1DE0C4AA003526FB /* RPCircularProgress.swift */; };
 		2C4036AA1DE071CD00FA70B7 /* StencilStd.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2C4036A91DE071CD00FA70B7 /* StencilStd.otf */; };
 		2CB9F0861DDF561900BF7FA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB9F0851DDF561900BF7FA4 /* AppDelegate.swift */; };
 		2CB9F08B1DDF561900BF7FA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CB9F0891DDF561900BF7FA4 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C23B95B1DE0C4AA003526FB /* RPCircularProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPCircularProgress.swift; sourceTree = "<group>"; };
 		2C4036A91DE071CD00FA70B7 /* StencilStd.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = StencilStd.otf; sourceTree = "<group>"; };
 		2CB9F0821DDF561900BF7FA4 /* Pokemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CB9F0851DDF561900BF7FA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C23B95A1DE0C4AA003526FB /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				2C23B95B1DE0C4AA003526FB /* RPCircularProgress.swift */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
 		2CB9F0791DDF561900BF7FA4 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +70,7 @@
 		2CB9F0841DDF561900BF7FA4 /* Pokemon */ = {
 			isa = PBXGroup;
 			children = (
+				2C23B95A1DE0C4AA003526FB /* Libraries */,
 				2CE229A01DE05E2F00FA8B91 /* Font */,
 				2CE229A61DE05EE600FA8B91 /* ViewControllers */,
 				2CB9F0851DDF561900BF7FA4 /* AppDelegate.swift */,
@@ -167,6 +178,7 @@
 				2CE229AA1DE05EE600FA8B91 /* MainViewController.swift in Sources */,
 				2CE229A91DE05EE600FA8B91 /* GamePlayViewController.swift in Sources */,
 				2CB9F0861DDF561900BF7FA4 /* AppDelegate.swift in Sources */,
+				2C23B95C1DE0C4AA003526FB /* RPCircularProgress.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
