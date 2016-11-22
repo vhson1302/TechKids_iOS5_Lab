@@ -9,10 +9,15 @@
 import UIKit
 
 class MainViewController: UIViewController {
-
+    
+    @IBOutlet weak var scoreLabel: UILabel!
+    @IBOutlet weak var scoreTextLabel: UILabel!
+    
+    var score = DataManager.init().getHightScore().last!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.scoreTextLabel.text = "HIGHSCORE: \(score)"
     }
 
     override func didReceiveMemoryWarning() {
@@ -26,6 +31,10 @@ class MainViewController: UIViewController {
         self.navigationController?.pushViewController(playView, animated: true)
     }
     
+    @IBAction func invokeToSetting(_ sender: Any) {
+        let settingView = self.storyboard?.instantiateViewController(withIdentifier: "Setting View")
+        self.navigationController?.pushViewController(settingView!, animated: true)
+    }
 
 }
 
